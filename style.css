@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.main {
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 120%;
+    height: 120%;
+    left: -10px;
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
+    
+}
+
+.content {
+   
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+  }
+.content h1 {
+    font-size: 75px;
+    color: rgba(245, 245, 245, 0.695);
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    padding: 80px;
+    margin: 35px;
+    z-index: 1;
+
+}
+p {
+    font-size: 50px;
+    color: rgba(245, 245, 245, 0.616);
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    padding: 15px;
+    margin: 15px;
+    z-index: 1;
+    
+    
+}
+
+.content h2 {
+    color: rgba(245, 245, 245, 0.327);
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    padding: 45px;
+    margin: 15px;
+    z-index: 1;
+
+  }
+
+
+@keyframes gone {
+    from {opacity: 0;}
+    to {opacity: 1;}
+   }
+  
+
+
+.hidden{
+    animation-name: gone;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+
