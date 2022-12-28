@@ -1,9 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-
 }
-
 
 .main {
     background-repeat: no-repeat;
@@ -11,14 +9,11 @@
     width: 120%;
     height: 120%;
     left: -10px;
-
     position: fixed;
     left: 0;
     right: 0;
     top: 0;
-    bottom: 0;
-    
-    
+    bottom: 0;  
 }
 
 .content {
@@ -39,8 +34,8 @@
     padding: 80px;
     margin: 35px;
     z-index: 1;
-
 }
+
 p {
     font-size: 50px;
     color: rgba(245, 245, 245, 0.616);
@@ -48,9 +43,7 @@ p {
     font-weight: bold;
     padding: 15px;
     margin: 15px;
-    z-index: 1;
-    
-    
+    z-index: 1;   
 }
 
 .content h2 {
@@ -60,7 +53,6 @@ p {
     padding: 45px;
     margin: 15px;
     z-index: 1;
-
   }
 
 
@@ -69,12 +61,8 @@ p {
     to {opacity: 1;}
    }
   
-
-
 .hidden{
     animation-name: gone;
     animation-duration: 10s;
-    animation-iteration-count: infinite;
-    
+    animation-iteration-count: infinite;    
 }
-
